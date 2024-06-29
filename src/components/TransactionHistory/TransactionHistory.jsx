@@ -1,6 +1,6 @@
 import s from './TransactionHistory.module.css';
 
-const TransactionHistory = () => {
+const TransactionHistory = ({ items }) => {
   return (
     <table className={s.table}>
       <thead className={s.transactionHead}>
